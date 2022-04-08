@@ -2,20 +2,18 @@ public class Demo{
 
 	public static void main(String[] args) {
 		
-     String s="i love my india";
-     char c[]=s.toCharArray();
-     int count=0;
-     
-     for( char ch:c)
-     {
-    	 if(ch=='i')
-    	 {
-    		 count++;
-    	 }
-    	 
-     }
-     System.out.println(count);
+		int a=0;
+		int b=1;
+		int c;
+		
+		for(int i=0;i<=10;i++)
+		{
+			c=a+b;
+			System.out.println(c);
+			a=b;
+			b=c;
+		}
+
 	}
-	
 
 }
